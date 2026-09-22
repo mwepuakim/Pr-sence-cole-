@@ -1,0 +1,17 @@
+{
+  "name": "ecole-presence",
+  "version": "1.0.0",
+  "description": "Gestion de presence des enseignants par pointeuse biometrique (ADMS/iClock)",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "cookie-session": "^2.1.0",
+    "express": "^4.19.2"
+  }
+}
